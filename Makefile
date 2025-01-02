@@ -14,6 +14,7 @@ confirm:
 ## run/api: run the cmd/api application
 .PHONY: run/api
 run/api:
+	@echo "Running server on specified port"
 	go run ./cmd/api
 
 ## db/psql: connect to the database using psql
